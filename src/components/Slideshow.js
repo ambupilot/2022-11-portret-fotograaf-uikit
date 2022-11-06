@@ -8,6 +8,10 @@ export default function slideshow(props) {
     <ul className="uk-slideshow-items">
         <li>
           <div className="uk-position-cover uk-animation-kenburns">
+          <div class="uk-position-center uk-position-small uk-text-center uk-light uk-overlay-primary uk-padding-large">
+                <h2 class="uk-margin-remove">Center</h2>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
             <img src="https://getuikit.com/docs/images/photo.jpg" loading="lazy" alt="" uk-cover />
           </div>
         </li>
