@@ -10,7 +10,6 @@ import Gridbox from './components/GridBox';
 
 // Import everything needed to use the `useQuery` hook
 import { useQuery, gql } from '@apollo/client';
-import Manimenu from './components/MainMenu';
 
 const GET_POSTS = gql`
   query Posts {

@@ -23,9 +23,6 @@ export default function slideshow(props) {
         </li>
     </ul>
 
-    <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-    <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-
 </div>
 
   )
