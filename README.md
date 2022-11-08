@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6c1bb929-714e-4866-8387-0fc934154ea2/deploy-status)](https://app.netlify.com/sites/mellifluous-pithivier-4145ad/deploys)
 
-# Portret Fotograaf website met React en UiKit, november 2022
+# Portret Fotograaf website met React en UiKit, november 2022.
 
 
 
