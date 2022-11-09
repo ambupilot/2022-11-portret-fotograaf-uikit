@@ -1,12 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-import Loading from './components/system/Loading';
-import Error from './components/system/Error';
+import Loading from '../components/system/Loading';
+import Error from '../components/system/Error';
 
-import Slideshow from './components/Slideshow';
-import Mainmenu from './components/MainMenu';
-import Gridbox from './components/GridBox';
+import Gridbox from '../components/GridBox';
 
 // Import everything needed to use the `useQuery` hook
 import { useQuery, gql } from '@apollo/client';
@@ -39,7 +37,7 @@ function DisplayLocations() {
   ));
 }
 
-function App() {
+function Home() {
   return (
 
     <div>
@@ -47,10 +45,6 @@ function App() {
 <title>Martijn Kerssing</title>
 <meta name='description' content='Portret Fotograaf' />
 </Helmet>
-
-
-<Slideshow />
-<Mainmenu />
 
 
 <div class="uk-text-center" data-uk-grid>
@@ -64,4 +58,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

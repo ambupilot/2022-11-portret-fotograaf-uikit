@@ -1,7 +1,6 @@
 import React from "react"
 
-export default function Gridbox() {
-
+export default function Gridbox() {        
     return(
 
 <div className="uk-container">

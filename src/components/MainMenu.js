@@ -4,8 +4,8 @@ export default function Mainmenu(props) {
 
   return (
     <div class="uk-position-top">
-        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-            <div class="uk-navbar-right">
+        <nav class="uk-navbar-container uk-navbar mk-navbar" uk-navbar>
+            <div class="uk-navbar-right mk-nav-item">
                 <ul class="uk-navbar-nav">
                     <li class="uk-active"><a href="#een">Link een</a></li>
                     <li><a href="#twee">Link twee</a></li>
