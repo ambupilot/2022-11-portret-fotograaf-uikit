@@ -48,10 +48,8 @@ function App() {
 <meta name='description' content='Portret Fotograaf' />
 </Helmet>
 
-
 <Slideshow />
 <Mainmenu />
-
 
 <div class="uk-text-center" data-uk-grid>
       <DisplayLocations />

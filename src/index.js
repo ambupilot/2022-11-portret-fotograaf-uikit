@@ -35,7 +35,7 @@ UIkit.use(Icons);
 //UIkit.notification('Hello world.');
 
 const client = new ApolloClient({
-  uri: 'https://api-eu-central-1.hygraph.com/v2/ckppbslrxtjkc01z68jh97f2o/master',
+  uri: 'https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clacw9ipz0pnp01ul7gww06xt/master',
   cache: new InMemoryCache(),
 });
 
